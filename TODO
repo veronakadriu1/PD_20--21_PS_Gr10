@@ -1,0 +1,48 @@
+UI:
+    ✔ Expand card on open using transitions @done(21-04-03 13:43)
+    ✔ Use O.S. notifications for export on leave @started(21-04-01 17:11) @done(21-04-03 13:44) @lasted(1d20h33m2s)
+    ✔ Status bar in class view which shows proportion of students present @done(21-03-24 19:16)
+    ✔ Separate section for unlisted students and option to add all @started(21-03-22 09:47) @done(21-03-24 19:15) @lasted(2d9h28m17s)
+    ✔ Minimum limit for student presence time @done(21-04-01 17:11)
+    ✔ Close card by clicking on logo @done(21-03-07 22:08)
+    ✔ Fix scrolling issues on select dialog @done(21-03-08 22:39)
+    ✔ Option on popup to verify extension @started(20-10-03 21:32) @done(20-10-03 22:02) @lasted(30m12s)
+    ✔ Only show select popup on first join, option to disable @started(20-09-28 13:13) @done(20-09-28 14:15) @lasted(1h2m43s)
+    ✔ Snackbars for deleting class, saving class, adding/removing people @done(20-09-04 12:00)
+    ✔ Add and remove buttons next to student names @done(20-08-28 12:00)
+    ✔ Link to spreadsheet when done exporting @done(20-08-25 12:00)
+    ✔ Sort functionality @done(20-08-19 12:00)
+    ✔ Ability to paste names into text box @done(20-08-19 12:00)
+
+Backend:
+    ☐ Option to download and upload class rosters @started(21-03-28 17:20)
+    ☐ Update to Manifest V3 @high
+    ✔ Resolve issues with non-English names @done(21-03-08 22:39)
+    ✔ Fix problems that arise when using the same code repeatedly @done(21-03-07 21:13)
+    ✔ Fix export on leave @done(21-01-28 21:10)
+    ✔ Deal with big classes @low @done(21-03-08 22:39)
+    ☐ Resolve bug wherein some present students are marked as absent @high 
+    ✔ Get rid of nameArray variable @started(20-10-08 10:41) @done(20-10-08 14:23) @lasted(3h42m6s)
+    ✔ Determine first/last names from video data object @low @started(20-10-05 11:32) @done(20-10-06 15:43) @lasted(1d4h11m3s)
+    ✔ Deal with cases in which token is invalid @started(20-10-01 19:13) @done(20-10-03 21:33) @lasted(2d2h20m40s)
+    ✔ Hook into exposed function to get attendance instead of opening people tab @high @done(20-09-22 12:00)
+    ✔ Safer instantiation @low @done(20-09-22 12:00)
+    ✔ Refactor to async/await @done(20-09-11 12:00)
+    ✔ Smarter last names @done(20-08-29 12:00)
+    Spreadsheet Management:
+        ☐ Filter data by student and class (pivot tables?)
+        ✔ Remove number of rows from developer metadata, use the spreadsheet object to get groups instead @done(20-08-25 12:00)
+        ✔ Adjust to changing class sizes @done(20-08-19 12:00)
+        ✔ Rename sheet when renamed class @done(20-08-21 12:00)
+        ✔ Export on close option @done(20-09-04 12:00)
+
+Internationalization:
+    ✘ Setup translations.js @started(20-10-29 13:16) @cancelled(21-03-22 09:40) @wasted(20w3d20h24m37s)
+    ✔ Create i18n project @done(21-03-22 09:41)
+    ✔ Automate i18n project @done(21-03-22 09:41)
+    ☐ Replace all instances of text with path to translation @started(20-10-29 13:17)
+    ☐ Recruit volunteers to provide translations
+
+README:
+    ☐ Troubleshooting
+    ✔ Tutorial @done(20-09-04 12:00)
